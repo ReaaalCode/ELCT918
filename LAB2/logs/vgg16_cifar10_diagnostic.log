@@ -1,0 +1,9 @@
+Using GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+Model: vgg16; dataset: cifar10; trainable parameters: 33,638,218
+Samples - train: 45000, validation: 5000, test: 10000
+Architecture summary: architecture_summary_vgg16_10classes.txt
+Epoch 01/2: train loss 2.1972, train accuracy 15.80%, validation loss 1.9634, validation accuracy 23.86%, epoch time 18.79s
+Epoch 02/2: train loss 1.9354, train accuracy 25.03%, validation loss 1.8460, validation accuracy 28.38%, epoch time 18.31s
+Test top-1 accuracy: 28.90%
+Accuracy drop: 71.10%
+Saved metrics to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/results, plots to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/plots, and checkpoint to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/checkpoints/vgg16_cifar10_best.pt

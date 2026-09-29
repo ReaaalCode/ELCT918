@@ -1,0 +1,49 @@
+VGG16 for 10 classes
+Depth counts only learned CONV and FC layers; pooling and activations have no trainable weights.
+Learned-layer depth: 16
+Trainable parameters: 33,638,218
+
+Layer | Type | Input | Kernel | Stride | Padding | In channels/features | Out channels/features | Output | Parameters
+------------------------------------------------------------------------------------------------------------------------------------------------------
+features.0 | Conv2d | (1, 3, 32, 32) | 3x3 | 1x1 | 1x1 | 3 | 64 | (1, 64, 32, 32) | 1792
+features.2 | Conv2d | (1, 64, 32, 32) | 3x3 | 1x1 | 1x1 | 64 | 64 | (1, 64, 32, 32) | 36928
+features.4 | MaxPool2d | (1, 64, 32, 32) | 2x2 | 2x2 | 0x0 | 64 | 64 | (1, 64, 16, 16) | 0
+features.5 | Conv2d | (1, 64, 16, 16) | 3x3 | 1x1 | 1x1 | 64 | 128 | (1, 128, 16, 16) | 73856
+features.7 | Conv2d | (1, 128, 16, 16) | 3x3 | 1x1 | 1x1 | 128 | 128 | (1, 128, 16, 16) | 147584
+features.9 | MaxPool2d | (1, 128, 16, 16) | 2x2 | 2x2 | 0x0 | 128 | 128 | (1, 128, 8, 8) | 0
+features.10 | Conv2d | (1, 128, 8, 8) | 3x3 | 1x1 | 1x1 | 128 | 256 | (1, 256, 8, 8) | 295168
+features.12 | Conv2d | (1, 256, 8, 8) | 3x3 | 1x1 | 1x1 | 256 | 256 | (1, 256, 8, 8) | 590080
+features.14 | Conv2d | (1, 256, 8, 8) | 3x3 | 1x1 | 1x1 | 256 | 256 | (1, 256, 8, 8) | 590080
+features.16 | MaxPool2d | (1, 256, 8, 8) | 2x2 | 2x2 | 0x0 | 256 | 256 | (1, 256, 4, 4) | 0
+features.17 | Conv2d | (1, 256, 4, 4) | 3x3 | 1x1 | 1x1 | 256 | 512 | (1, 512, 4, 4) | 1180160
+features.19 | Conv2d | (1, 512, 4, 4) | 3x3 | 1x1 | 1x1 | 512 | 512 | (1, 512, 4, 4) | 2359808
+features.21 | Conv2d | (1, 512, 4, 4) | 3x3 | 1x1 | 1x1 | 512 | 512 | (1, 512, 4, 4) | 2359808
+features.23 | MaxPool2d | (1, 512, 4, 4) | 2x2 | 2x2 | 0x0 | 512 | 512 | (1, 512, 2, 2) | 0
+features.24 | Conv2d | (1, 512, 2, 2) | 3x3 | 1x1 | 1x1 | 512 | 512 | (1, 512, 2, 2) | 2359808
+features.26 | Conv2d | (1, 512, 2, 2) | 3x3 | 1x1 | 1x1 | 512 | 512 | (1, 512, 2, 2) | 2359808
+features.28 | Conv2d | (1, 512, 2, 2) | 3x3 | 1x1 | 1x1 | 512 | 512 | (1, 512, 2, 2) | 2359808
+features.30 | MaxPool2d | (1, 512, 2, 2) | 2x2 | 2x2 | 0x0 | 512 | 512 | (1, 512, 1, 1) | 0
+classifier.1 | Linear | (1, 512) | - | - | - | 512 | 4096 | (1, 4096) | 2101248
+classifier.4 | Linear | (1, 4096) | - | - | - | 4096 | 4096 | (1, 4096) | 16781312
+classifier.7 | Linear | (1, 4096) | - | - | - | 4096 | 10 | (1, 10) | 40970
+
+Receptive field growth (spatial CONV/pooling layers)
+Layer | Receptive field | Effective stride
+features.0 | 3x3 | 1
+features.2 | 5x5 | 1
+features.4 | 6x6 | 2
+features.5 | 10x10 | 2
+features.7 | 14x14 | 2
+features.9 | 16x16 | 4
+features.10 | 24x24 | 4
+features.12 | 32x32 | 4
+features.14 | 40x40 | 4
+features.16 | 44x44 | 8
+features.17 | 60x60 | 8
+features.19 | 76x76 | 8
+features.21 | 92x92 | 8
+features.23 | 100x100 | 16
+features.24 | 132x132 | 16
+features.26 | 164x164 | 16
+features.28 | 196x196 | 16
+features.30 | 212x212 | 32

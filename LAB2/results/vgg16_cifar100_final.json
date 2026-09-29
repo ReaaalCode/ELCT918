@@ -1,0 +1,18 @@
+{
+  "architecture": "vgg16",
+  "dataset": "cifar100",
+  "trainable_parameters": 34006948,
+  "best_validation_accuracy": 20.68,
+  "test_top1_accuracy": 20.57,
+  "test_top5_accuracy": 50.5,
+  "accuracy_drop_percent": 79.43,
+  "average_epoch_time_seconds": 18.71833962324981,
+  "epochs": 20,
+  "batch_size": 128,
+  "learning_rate": 0.01,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "seed": 918,
+  "device": "cuda"
+}

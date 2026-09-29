@@ -1,0 +1,28 @@
+Using GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+Model: vgg16; dataset: cifar100; trainable parameters: 34,006,948
+Samples - train: 45000, validation: 5000, test: 10000
+Architecture summary: architecture_summary_vgg16_100classes.txt
+Epoch 01/20: train loss 4.6052, train accuracy 0.98%, validation loss 4.6047, validation accuracy 1.06%, epoch time 19.12s
+Epoch 02/20: train loss 4.5667, train accuracy 1.48%, validation loss 4.5033, validation accuracy 1.98%, epoch time 18.64s
+Epoch 03/20: train loss 4.4116, train accuracy 2.57%, validation loss 4.3204, validation accuracy 3.52%, epoch time 18.63s
+Epoch 04/20: train loss 4.2739, train accuracy 3.77%, validation loss 4.1763, validation accuracy 4.06%, epoch time 18.63s
+Epoch 05/20: train loss 4.1084, train accuracy 5.26%, validation loss 4.0707, validation accuracy 5.42%, epoch time 18.64s
+Epoch 06/20: train loss 4.0228, train accuracy 6.51%, validation loss 3.9346, validation accuracy 7.84%, epoch time 18.67s
+Epoch 07/20: train loss 3.9430, train accuracy 7.40%, validation loss 3.8479, validation accuracy 8.80%, epoch time 18.69s
+Epoch 08/20: train loss 3.8566, train accuracy 8.55%, validation loss 3.7529, validation accuracy 10.12%, epoch time 18.67s
+Epoch 09/20: train loss 3.7420, train accuracy 10.34%, validation loss 3.6547, validation accuracy 11.44%, epoch time 18.66s
+Epoch 10/20: train loss 3.6312, train accuracy 11.98%, validation loss 3.5479, validation accuracy 12.68%, epoch time 18.80s
+Epoch 11/20: train loss 3.4131, train accuracy 15.15%, validation loss 3.3522, validation accuracy 17.08%, epoch time 18.65s
+Epoch 12/20: train loss 3.3589, train accuracy 16.06%, validation loss 3.3173, validation accuracy 17.42%, epoch time 18.66s
+Epoch 13/20: train loss 3.3229, train accuracy 16.57%, validation loss 3.2960, validation accuracy 17.74%, epoch time 18.71s
+Epoch 14/20: train loss 3.2956, train accuracy 17.24%, validation loss 3.2790, validation accuracy 18.28%, epoch time 18.68s
+Epoch 15/20: train loss 3.2578, train accuracy 17.94%, validation loss 3.2081, validation accuracy 19.46%, epoch time 18.69s
+Epoch 16/20: train loss 3.2039, train accuracy 18.72%, validation loss 3.1876, validation accuracy 19.76%, epoch time 18.78s
+Epoch 17/20: train loss 3.1927, train accuracy 19.12%, validation loss 3.1846, validation accuracy 20.00%, epoch time 18.78s
+Epoch 18/20: train loss 3.1935, train accuracy 19.04%, validation loss 3.1803, validation accuracy 20.36%, epoch time 18.76s
+Epoch 19/20: train loss 3.1902, train accuracy 19.18%, validation loss 3.1710, validation accuracy 20.50%, epoch time 18.81s
+Epoch 20/20: train loss 3.1783, train accuracy 19.21%, validation loss 3.1712, validation accuracy 20.68%, epoch time 18.68s
+Test top-1 accuracy: 20.57%
+Test top-5 accuracy: 50.50%
+Accuracy drop: 79.43%
+Saved metrics to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/results, plots to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/plots, and checkpoint to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/checkpoints/vgg16_cifar100_best.pt

@@ -1,0 +1,18 @@
+{
+  "architecture": "lenet",
+  "dataset": "cifar100",
+  "trainable_parameters": 69656,
+  "best_validation_accuracy": 19.58,
+  "test_top1_accuracy": 20.53,
+  "test_top5_accuracy": 47.53,
+  "accuracy_drop_percent": 79.47,
+  "average_epoch_time_seconds": 2.546426306199828,
+  "epochs": 20,
+  "batch_size": 128,
+  "learning_rate": 0.01,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "seed": 918,
+  "device": "cuda"
+}

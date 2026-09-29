@@ -1,0 +1,27 @@
+Using GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+Model: lenet; dataset: cifar10; trainable parameters: 62,006
+Samples - train: 45000, validation: 5000, test: 10000
+Architecture summary: architecture_summary_lenet_10classes.txt
+Epoch 01/20: train loss 1.9824, train accuracy 27.29%, validation loss 1.7719, validation accuracy 36.60%, epoch time 3.17s
+Epoch 02/20: train loss 1.7763, train accuracy 35.90%, validation loss 1.6634, validation accuracy 39.12%, epoch time 2.81s
+Epoch 03/20: train loss 1.6658, train accuracy 39.78%, validation loss 1.5443, validation accuracy 42.90%, epoch time 2.74s
+Epoch 04/20: train loss 1.5829, train accuracy 42.68%, validation loss 1.4408, validation accuracy 47.90%, epoch time 2.80s
+Epoch 05/20: train loss 1.5240, train accuracy 44.87%, validation loss 1.3995, validation accuracy 48.58%, epoch time 2.70s
+Epoch 06/20: train loss 1.4913, train accuracy 45.77%, validation loss 1.3549, validation accuracy 49.86%, epoch time 2.70s
+Epoch 07/20: train loss 1.4529, train accuracy 47.35%, validation loss 1.3731, validation accuracy 49.54%, epoch time 2.77s
+Epoch 08/20: train loss 1.4259, train accuracy 48.54%, validation loss 1.3119, validation accuracy 52.72%, epoch time 2.76s
+Epoch 09/20: train loss 1.4071, train accuracy 48.95%, validation loss 1.3104, validation accuracy 53.06%, epoch time 2.79s
+Epoch 10/20: train loss 1.3803, train accuracy 50.20%, validation loss 1.2632, validation accuracy 54.64%, epoch time 2.68s
+Epoch 11/20: train loss 1.3241, train accuracy 52.39%, validation loss 1.2391, validation accuracy 55.70%, epoch time 2.75s
+Epoch 12/20: train loss 1.3121, train accuracy 52.58%, validation loss 1.2310, validation accuracy 56.00%, epoch time 2.73s
+Epoch 13/20: train loss 1.3101, train accuracy 52.92%, validation loss 1.2288, validation accuracy 56.06%, epoch time 2.73s
+Epoch 14/20: train loss 1.3034, train accuracy 52.94%, validation loss 1.2264, validation accuracy 55.72%, epoch time 2.74s
+Epoch 15/20: train loss 1.3002, train accuracy 53.30%, validation loss 1.2215, validation accuracy 55.86%, epoch time 2.70s
+Epoch 16/20: train loss 1.2913, train accuracy 53.62%, validation loss 1.2159, validation accuracy 56.52%, epoch time 2.71s
+Epoch 17/20: train loss 1.2934, train accuracy 53.56%, validation loss 1.2154, validation accuracy 56.64%, epoch time 2.71s
+Epoch 18/20: train loss 1.2941, train accuracy 53.48%, validation loss 1.2143, validation accuracy 56.74%, epoch time 2.70s
+Epoch 19/20: train loss 1.2873, train accuracy 53.71%, validation loss 1.2143, validation accuracy 56.52%, epoch time 2.71s
+Epoch 20/20: train loss 1.2901, train accuracy 53.65%, validation loss 1.2136, validation accuracy 56.78%, epoch time 2.75s
+Test top-1 accuracy: 56.10%
+Accuracy drop: 43.90%
+Saved metrics to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/results, plots to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/plots, and checkpoint to /home/reaaal/Documents/ChatGPT/Uni/ELCT918/Lab2 assignment/checkpoints/lenet_cifar10_best.pt

@@ -1,0 +1,18 @@
+{
+  "architecture": "alexnet",
+  "dataset": "cifar10",
+  "trainable_parameters": 28569994,
+  "best_validation_accuracy": 78.98,
+  "test_top1_accuracy": 78.08,
+  "test_top5_accuracy": null,
+  "accuracy_drop_percent": 21.92,
+  "average_epoch_time_seconds": 20.43336736194997,
+  "epochs": 20,
+  "batch_size": 128,
+  "learning_rate": 0.01,
+  "optimizer": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "seed": 918,
+  "device": "cuda"
+}
