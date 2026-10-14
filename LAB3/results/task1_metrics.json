@@ -1,0 +1,50 @@
+{
+  "test_accuracy_percent": 98.53,
+  "test_loss": 0.04579907295517623,
+  "best_validation_accuracy_percent": 98.72,
+  "trainable_parameters": 61706,
+  "average_training_epoch_seconds": 2.711129376099984,
+  "individual_epoch_seconds": [
+    3.135340581999799,
+    2.590678861000015,
+    2.5451133019998906,
+    2.8845532150000963,
+    2.7014373189999787,
+    2.7026350759999787,
+    2.6201989090000097,
+    2.6094001989999924,
+    2.6682541879999917,
+    2.6536821100000907
+  ],
+  "training_settings": {
+    "seed": 918,
+    "epochs": 10,
+    "optimizer": "SGD",
+    "learning_rate": 0.01,
+    "momentum": 0.9,
+    "weight_decay": 0.0,
+    "batch_size": 128,
+    "scheduler": {
+      "name": "MultiStepLR",
+      "milestones": [
+        6,
+        8
+      ],
+      "gamma": 0.1
+    },
+    "loss_function": "CrossEntropyLoss",
+    "split": {
+      "training": 55000,
+      "validation": 5000,
+      "official_test": 10000
+    }
+  },
+  "normalization": {
+    "mean": 0.1307,
+    "std": 0.3081,
+    "input_pipeline": "ToTensor -> zero-pad 28x28 to 32x32 -> Normalize"
+  },
+  "device": "cuda",
+  "weights_path": "lenet_mnist.pt",
+  "weights_reload_verified": true
+}
