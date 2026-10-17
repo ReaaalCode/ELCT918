@@ -1,4 +1,4 @@
-# ELCT918 Verilog Refresher Assignment — Instructor Reference
+# ELCT918 Verilog Refresher Assignment
 
 Files:
 - `design.sv`: original `mystery` module followed by a readable behavioral reconstruction.
